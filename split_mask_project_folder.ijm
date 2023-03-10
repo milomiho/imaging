@@ -6,9 +6,6 @@
 #@ String (label = "number of channels") nchannels
 #@ String (label = "mask channel") mask // Specify which channel is used as the mask.
 
-// See also Process_Folder.py for a version of this code
-// in the Python scripting language.
-
 processFolder(input);
 
 // function to scan folders/subfolders/files to find files with correct suffix
